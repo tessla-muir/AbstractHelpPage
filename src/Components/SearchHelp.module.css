@@ -1,0 +1,21 @@
+.page {
+  background: #dadbf1;
+  font-size: 50px;
+  padding-block: 90px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  width: 50%;
+  height: 2rem;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 5px;
+  padding: 8px;
+  padding-inline: 10px;
+  font-size: 15px;
+}

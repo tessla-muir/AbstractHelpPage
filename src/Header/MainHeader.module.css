@@ -1,0 +1,51 @@
+header {
+  color: white;
+  background-color: #000000;
+}
+
+header nav {
+  height: 4rem;
+  padding-inline: 2rem;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+
+header nav div {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.divider {
+  border-left: 2px solid white;
+  height: 10%;
+}
+
+header img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.title {
+  font-weight: bolder;
+}
+
+.buttons {
+  margin-left: auto;
+}
+
+.buttons button:first-child {
+  background-color: #000000;
+  margin-right: 10px;
+  border-color: white;
+}
+
+.buttons button {
+  color: white;
+  background-color: #4c5fd5;
+  border-radius: 5px;
+  padding: 8px;
+  padding-inline: 12px;
+  font-size: 16px;
+}
