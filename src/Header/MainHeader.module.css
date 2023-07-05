@@ -4,8 +4,8 @@ header {
 }
 
 header nav {
-  height: 4rem;
-  padding-inline: 2rem;
+  height: 5rem;
+  padding-inline: 8rem;
   display: flex;
   vertical-align: middle;
   align-items: center;
