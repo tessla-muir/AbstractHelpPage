@@ -4,3 +4,9 @@
   columns: 2;
   column-gap: 4rem;
 }
+
+@media screen and (max-width: 768px) {
+  .cardholder {
+    columns: 1;
+  }
+}

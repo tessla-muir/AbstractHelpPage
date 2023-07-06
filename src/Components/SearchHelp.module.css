@@ -1,11 +1,12 @@
 .search {
   background: #dadbf1;
-  font-size: 72px;
+  font-size: 78px;
+  letter-spacing: -2px;
   padding-block: 100px;
 }
 
 .formholder {
-  width: 35%;
+  width: 40%;
   margin: auto;
   margin-block: 3rem;
 }
@@ -59,4 +60,10 @@
 
 .input:focus {
   outline: none;
+}
+
+@media screen and (max-width: 768px) {
+  .formholder {
+    width: 90%;
+  }
 }
