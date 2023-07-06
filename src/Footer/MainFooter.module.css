@@ -2,16 +2,20 @@
   color: white;
   background-color: black;
   columns: 4;
-  padding: 6rem;
-  padding-block: 3rem;
+  padding-left: 8rem;
+  padding-right: 20%;
+  padding-top: 3rem;
+  padding-bottom: 200px;
   text-align: left;
 }
 
 .list {
   break-inside: avoid;
+  height: 12rem;
 }
 
 .list h2 {
+  font-weight: 600;
   margin-top: 0;
 }
 
@@ -27,4 +31,10 @@
 .contact {
   font-weight: bolder !important;
   margin-top: 30px !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer {
+    columns: 2;
+  }
 }
