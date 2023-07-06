@@ -1,7 +1,7 @@
 .search {
   background: #dadbf1;
   font-size: 78px;
-  letter-spacing: -2px;
+  letter-spacing: -4px;
   padding-block: 100px;
 }
 
@@ -31,18 +31,23 @@
 }
 
 .form button {
+  display: flex;
   background: white;
   height: 199%;
   width: auto;
 
   border-color: black;
   border-width: 1px 1px 1px 0px;
-  border-radius: 0px, 5px, 5px, 0px;
+  border-radius: 5%;
 }
 
 .form button svg {
   height: 2rem;
   vertical-align: middle;
+  padding-right: 10px;
+
+  display: block;
+  margin: auto;
 }
 
 .input {
@@ -56,6 +61,7 @@
   border-color: black;
   border-width: 1px 0px 1px 1px;
   border-radius: 5px 0px 0px 5px;
+  margin-right: -2rem;
 }
 
 .input:focus {
