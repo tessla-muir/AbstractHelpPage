@@ -1,0 +1,40 @@
+.card {
+  display: flex;
+  width: 50%;
+  height: 10rem;
+  align-items: center;
+  flex: 2 1 auto;
+}
+
+.card svg {
+  fill: green;
+  height: 100%;
+  margin-right: 10px;
+}
+
+.card div {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  text-align: left;
+}
+
+.card div h2 {
+  margin-block: 0px;
+  margin-bottom: 15px;
+  font-size: large;
+}
+
+.card div p {
+  margin-block: 0px;
+  margin-bottom: 15px;
+  font-size: large;
+}
+
+.card div a {
+  margin-block: 0px;
+  margin-bottom: 15px;
+  font-size: large;
+  color: blue;
+  text-decoration: none;
+}
