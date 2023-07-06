@@ -12,14 +12,6 @@ const CARDS = [
     link: "https://tessla-muir.com/about",
   },
   {
-    id: 2,
-    title: "Manage your account",
-    description:
-      "Configure your account settings, such as your email, profile details, and password.",
-    img: "//theme.zdassets.com/theme_assets/2197739/91588b3d042df901d9b941ccbb57af4f151401c7.png",
-    link: "https://tessla-muir.com/about",
-  },
-  {
     id: 3,
     title: "Manage organizations, teams, and projects",
     description:
@@ -28,18 +20,26 @@ const CARDS = [
     link: "https://tessla-muir.com/about",
   },
   {
-    id: 4,
-    title: "Manage billing",
-    description: "Change subscriptions and payment details.",
-    img: "//theme.zdassets.com/theme_assets/2197739/3e82d0126e97d7b7c60a611d4e11b3c278d33743.png",
-    link: "https://tessla-muir.com/about",
-  },
-  {
     id: 5,
     title: "Authenticate to Abstract",
     description:
       "Set up and configure SSO, SCIM, and Just-in-Time provisioning.",
     img: "//theme.zdassets.com/theme_assets/2197739/7712592465ef5c7bf18f1c7cb16e19ab44eb81e3.png",
+    link: "https://tessla-muir.com/about",
+  },
+  {
+    id: 2,
+    title: "Manage your account",
+    description:
+      "Configure your account settings, such as your email, profile details, and password.",
+    img: "//theme.zdassets.com/theme_assets/2197739/91588b3d042df901d9b941ccbb57af4f151401c7.png",
+    link: "https://tessla-muir.com/about",
+  },
+  {
+    id: 4,
+    title: "Manage billing",
+    description: "Change subscriptions and payment details.",
+    img: "//theme.zdassets.com/theme_assets/2197739/3e82d0126e97d7b7c60a611d4e11b3c278d33743.png",
     link: "https://tessla-muir.com/about",
   },
   {

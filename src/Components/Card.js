@@ -7,7 +7,7 @@ function Card(props) {
       <div>
         <h2>{props.title}</h2>
         <p>{props.description}</p>
-        <a href={props.link}>Learn more -></a>
+        <a href={props.link}>Learn more →</a>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 .cardholder {
-  margin-block: 2rem;
+  margin-block: 10rem;
   margin-inline: 10%;
   columns: 2;
+  column-gap: 4rem;
 }
