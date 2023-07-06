@@ -1,0 +1,30 @@
+.footer {
+  color: white;
+  background-color: black;
+  columns: 4;
+  padding: 6rem;
+  padding-block: 3rem;
+  text-align: left;
+}
+
+.list {
+  break-inside: avoid;
+}
+
+.list h2 {
+  margin-top: 0;
+}
+
+.list h4 {
+  font-weight: 100;
+  margin-block: 5px;
+}
+
+.list h4:hover {
+  text-decoration: underline;
+}
+
+.contact {
+  font-weight: bolder !important;
+  margin-top: 30px !important;
+}

@@ -4,8 +4,8 @@ header {
 }
 
 header nav {
-  height: 4rem;
-  padding-inline: 2rem;
+  height: 5rem;
+  padding-inline: 8rem;
   display: flex;
   vertical-align: middle;
   align-items: center;
@@ -15,6 +15,7 @@ header nav div {
   display: flex;
   align-items: center;
   padding: 8px;
+  font-size: 22px;
 }
 
 .divider {
@@ -25,6 +26,7 @@ header nav div {
 header img {
   vertical-align: middle;
   margin-right: 5px;
+  width: 32px;
 }
 
 .title {
@@ -36,16 +38,23 @@ header img {
 }
 
 .buttons button:first-child {
-  background-color: #000000;
-  margin-right: 10px;
+  background-color: #232323;
+  margin-right: 12px;
   border-color: white;
+  border-width: 1px;
 }
 
 .buttons button {
   color: white;
   background-color: #4c5fd5;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 8px;
-  padding-inline: 12px;
-  font-size: 16px;
+  padding-inline: 22px;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 1200px) {
+  .buttons {
+    display: none;
+  }
 }
